@@ -64,7 +64,7 @@ function Login() {
                   </div>
                 </div>
                 <span className='text-red-500'>
-                      {errors.password?.type==='required' && 'Phone no can not be empty'}
+                      {errors.password?.type==='required' && 'Password can not be empty'}
                       {errors.password?.type==='minLength' && 'Minimum password characters is 8'}
                       </span>
   

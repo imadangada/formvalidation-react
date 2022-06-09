@@ -13,7 +13,7 @@ function Signup() {
               src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
               alt="Workflow"
             />
-            <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign in to your account</h2>
+            <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Register to create your account</h2>
             <p className="mt-2 text-center text-sm text-gray-600">
               Or{' '}
               <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
@@ -96,7 +96,7 @@ function Signup() {
                   </div>
                 </div>
                 <span className='text-red-500'>
-                      {errors.password?.type==='required' && 'Phone no can not be empty'}
+                      {errors.password?.type==='required' && 'Password can not be empty'}
                       {errors.password?.type==='minLength' && 'Minimum password characters is 8'}
                       </span>
                 <div className="flex items-center justify-between">
